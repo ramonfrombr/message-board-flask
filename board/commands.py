@@ -7,8 +7,8 @@
 """
 import click
 
-from sayhello import app, db
-from sayhello.models import Message
+from board import app, db
+from board.models import Message
 
 
 @app.cli.command()

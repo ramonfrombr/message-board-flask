@@ -9,12 +9,12 @@ import unittest
 
 from flask import abort
 
-from sayhello import app, db
-from sayhello.models import Message
-from sayhello.commands import forge, initdb
+from board import app, db
+from board.models import Message
+from board.commands import forge, initdb
 
 
-class SayHelloTestCase(unittest.TestCase):
+class boardTestCase(unittest.TestCase):
 
     def setUp(self):
         app.config.update(

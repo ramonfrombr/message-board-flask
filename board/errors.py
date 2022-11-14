@@ -7,7 +7,7 @@
 """
 from flask import render_template
 
-from sayhello import app
+from board import app
 
 
 @app.errorhandler(404)

@@ -8,7 +8,7 @@
 
 from datetime import datetime
 
-from sayhello import db
+from board import db
 
 
 class Message(db.Model):

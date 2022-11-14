@@ -7,9 +7,9 @@
 """
 from flask import flash, redirect, url_for, render_template
 
-from sayhello import app, db
-from sayhello.forms import HelloForm
-from sayhello.models import Message
+from board import app, db
+from board.forms import HelloForm
+from board.models import Message
 
 
 @app.route('/', methods=['GET', 'POST'])

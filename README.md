@@ -1,19 +1,19 @@
-# SayHello
+# board
 
 *Say hello to the world.*
 
 > Example application for *[Python Web Development with Flask](https://helloflask.com/en/book/1)* (《[Flask Web 开发实战](https://helloflask.com/book/1)》).
 
-Demo: http://sayhello.helloflask.com
+Demo: http://board.helloflask.com
 
-![Screenshot](https://helloflask.com/screenshots/sayhello.png)
+![Screenshot](https://helloflask.com/screenshots/board.png)
 
 ## Installation
 
 clone:
 ```
-$ git clone https://github.com/greyli/sayhello.git
-$ cd sayhello
+$ git clone https://github.com/greyli/board.git
+$ cd board
 ```
 create & activate virtual env then install dependency:
 
